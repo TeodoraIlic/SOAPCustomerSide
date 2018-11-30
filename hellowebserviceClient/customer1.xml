@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customer1>
+    <firstName>Teodora</firstName>
+    <lastName>Ilic</lastName>
+    <contactEmail>teodoraailic@gmail.com</contactEmail>
+    <contactPhone>0656848366</contactPhone>
+    <age>24</age>
+    <martialStatus>no matrial status</martialStatus>
+    <address>Jastrebacka</address>
+    <city>Belgrade</city>
+</customer1>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsdschema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Customer1" xmlns:tns="http://www.example.org/Customer1" elementFormDefault="qualified">
+<xsd:element name="Customer">
+    
+<xsd:complexType>
+    	<xsd:sequence>
+    		<xsd:element name="firstName" type="string"></xsd:element>
+    		<xsd:element name="lastName" type="string"></xsd:element>
+    		<xsd:element name="address" type="string"></xsd:element>
+    		<xsd:element name="city" type="string"></xsd:element>
+    		<xsd:element name="age" type="string"></xsd:element>
+    		<xsd:element name="maritalStatus" type="string"></xsd:element>
+    		<xsd:element name="contactEmail" type="string"></xsd:element>
+    		<xsd:element name="contactPhone" type="string"></xsd:element>
+    		<xsd:element name="comment" type="string" maxOccurs="1" minOccurs="0"></xsd:element>
+    	</xsd:sequence>
+    </xsd:complexType>
+    /xsd:element>
+<</schema

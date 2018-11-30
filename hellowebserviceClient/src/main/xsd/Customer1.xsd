@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Customer1" xmlns:tns="http://www.example.org/Customer1" elementFormDefault="qualified">
+<element name="Customer">
+    <complexType>
+    	<sequence>
+    		<element name="firstName" type="string"></element>
+    		<element name="lastName" type="string"></element>
+    		<element name="address" type="string"></element>
+    		<element name="city" type="string"></element>
+    		<element name="age" type="string"></element>
+    		<element name="maritalStatus" type="string"></element>
+    		<element name="contactEmail" type="string"></element>
+    		<element name="contactPhone" type="string"></element>
+    		<element name="comment" type="string" maxOccurs="1" minOccurs="0"></element>
+    	</sequence>
+    </complexType>
+    </element>
+</schema>
